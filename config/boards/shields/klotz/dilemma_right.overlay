@@ -1,0 +1,22 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "dilemma.dtsi"
+
+&default_transform {
+	col-offset = <5>;
+};
+
+&kscan0 {
+	col-gpios
+		= <&pro_micro 2 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+		, <&pro_micro 32 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+		, <&pro_micro 11 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+		, <&pro_micro 38 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+		, <&pro_micro 36 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>
+		;
+};
+
