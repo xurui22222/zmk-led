@@ -7,11 +7,17 @@
 #include "dilemma.dtsi"
 
 &kscan0 {
-	col-gpios
-		= <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		;
+    diode-direction = "col2row";
+    col-gpios
+        = <&pro_micro 2 (GPIO_ACTIVE_HIGH)> // COL0 
+        , <&pro_micro 3 (GPIO_ACTIVE_HIGH)> // COL1 
+        , <&pro_micro 4 (GPIO_ACTIVE_HIGH)> // COL2 
+        , <&pro_micro 5 (GPIO_ACTIVE_HIGH)> // COL3 
+	, <&pro_micro 6 (GPIO_ACTIVE_HIGH)> // COL1 
+        , <&pro_micro 7 (GPIO_ACTIVE_HIGH)> // COL2 
+        , <&pro_micro 8 (GPIO_ACTIVE_HIGH)> // COL3 
+	, <&pro_micro 9 (GPIO_ACTIVE_HIGH)> // COL1 
+        , <&pro_micro 21 (GPIO_ACTIVE_HIGH)> // COL2 
+        , <&pro_micro 20 (GPIO_ACTIVE_HIGH)> // COL4 
+    ;
 };
