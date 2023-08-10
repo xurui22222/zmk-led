@@ -82,12 +82,12 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 1 ESC    &kp LEFT_ALT  &kp N1           &kp N2           &kp N3           &kp N4           &kp N5           &kp N6            &kp N7    &kp N8    &kp N9   &lt 1 N0
-&lt 2 F10         &kp TAB   &kp Q            &kp W            &kp E            &kp R            &kp T            &kp Y             &kp U     &kp I     &kp O      &kp P
-   &kp F1  &kp LEFT_SHIFT   &kp A            &kp S            &kp D            &kp F            &kp G            &kp H             &kp J     &kp K     &kp L     &kp UP
-&kp LCTRL        &kp CAPS   &kp Z            &kp X            &kp C            &kp V            &kp B            &kp N             &kp M   &kp DOT  &kp DOWN  &kp RIGHT
-                            &none            &kp G         &kp BSPC        &kp SPACE        &kp ENTER         &kp BSPC  &ext_power EP_ON  &kp LEFT
-                            &none  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD   &rgb_ug RGB_TOG     &none
+&lt 1 ESC    &kp LEFT_ALT           &kp N1           &kp N2    &kp N3           &kp N4           &kp N5           &kp N6           &kp N7    &kp N8    &kp N9   &lt 1 N0
+&lt 2 F10         &kp TAB            &kp Q            &kp W     &kp E            &kp R            &kp T            &kp Y            &kp U     &kp I     &kp O      &kp P
+   &kp F1  &kp LEFT_SHIFT            &kp A            &kp S     &kp D            &kp F            &kp G            &kp H            &kp J     &kp K     &kp L     &kp UP
+&kp LCTRL        &kp CAPS            &kp Z            &kp X     &kp C            &kp V            &kp B            &kp N            &kp M   &kp DOT  &kp DOWN  &kp RIGHT
+                           &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &kp BSPC        &kp SPACE        &kp ENTER         &kp BSPC  &rgb_ug RGB_EFF  &kp LEFT
+                                     &none  &rgb_ug RGB_EFF     &kp G  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG     &none
             >;
         };
 
