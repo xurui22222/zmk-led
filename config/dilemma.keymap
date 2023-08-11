@@ -87,7 +87,7 @@
    &kp F1  &kp LEFT_SHIFT            &kp A            &kp S     &kp D            &kp F            &kp G            &kp H            &kp J     &kp K     &kp L     &kp UP
 &kp LCTRL        &kp CAPS            &kp Z            &kp X     &kp C            &kp V            &kp B            &kp N            &kp M   &kp DOT  &kp DOWN  &kp RIGHT
                            &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &kp BSPC        &kp SPACE        &kp ENTER         &kp BSPC  &rgb_ug RGB_EFF  &kp LEFT
-                                     &none  &rgb_ug RGB_EFF     &kp G  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_TOG     &none
+                                     &none  &rgb_ug RGB_EFF     &kp G  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG  &rgb_ug RGB_TOG     &none
             >;
         };
 
