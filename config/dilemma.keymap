@@ -82,12 +82,12 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 1 ESC  &rgb_ug RGB_TOG        &kp N1                  &kp N2         &kp N3           &kp N4           &kp N5           &kp N6           &kp N7    &kp N8    &kp N9   &lt 1 N0
-&lt 2 F10          &kp TAB         &kp Q                   &kp W          &kp E            &kp R            &kp T            &kp Y            &kp U     &kp I     &kp O      &kp P
-   &kp F1   &kp LEFT_SHIFT         &kp A                   &kp S          &kp D            &kp F            &kp G            &kp H            &kp J     &kp K     &kp L     &kp UP
-&kp LCTRL         &kp CAPS         &kp Z                   &kp X          &kp C            &kp V            &kp B            &kp N            &kp M   &kp DOT  &kp DOWN  &kp RIGHT
-                            &kp CAPSLOCK  &kp C_AL_CONTROL_PANEL      &kp SPACE            &kp G        &kp ENTER         &kp BSPC  &rgb_ug RGB_SPI  &kp LEFT
-                                   &none         &rgb_ug RGB_EFF  &kp BACKSPACE  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG  &rgb_ug RGB_TOG     &none
+&lt 1 ESC  &rgb_ug RGB_TOG        &kp N1                  &kp N2     &kp N3           &kp N4           &kp N5           &kp N6           &kp N7    &kp N8    &kp N9   &lt 1 N0
+&lt 2 F10          &kp TAB         &kp Q                   &kp W      &kp E            &kp R            &kp T            &kp Y            &kp U     &kp I     &kp O      &kp P
+   &kp F1   &kp LEFT_SHIFT         &kp A                   &kp S      &kp D            &kp F            &kp G            &kp H            &kp J     &kp K     &kp L     &kp UP
+&kp LCTRL         &kp CAPS         &kp Z                   &kp X      &kp C            &kp V            &kp B            &kp N            &kp M   &kp DOT  &kp DOWN  &kp RIGHT
+                            &kp CAPSLOCK  &kp C_AL_CONTROL_PANEL  &kp SPACE            &kp G        &kp ENTER         &kp BSPC  &rgb_ug RGB_SPI  &kp LEFT
+                                   &none         &rgb_ug RGB_EFF      &kp M  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG  &rgb_ug RGB_TOG     &none
             >;
         };
 
